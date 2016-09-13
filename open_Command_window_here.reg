@@ -1,0 +1,15 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\shell\CommandPrompt]
+"Icon"=hex(2):63,00,6d,00,64,00,2e,00,65,00,78,00,65,00,00,00
+@="@shell32.dll,-8506"
+
+[HKEY_CLASSES_ROOT\Directory\shell\CommandPrompt\command]
+@="cmd.exe"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\CommandPrompt]
+@="@shell32.dll,-8506"
+"Icon"=hex(2):63,00,6d,00,64,00,2e,00,65,00,78,00,65,00,00,00
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\CommandPrompt\command]
+@="cmd.exe"
